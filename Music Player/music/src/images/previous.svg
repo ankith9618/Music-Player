@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-caret-left-fill" viewBox="0 0 24 16">
+  <defs>
+    <linearGradient id="arrowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF7F" />
+      <stop offset="100%" stop-color="#32CD32" />
+    </linearGradient>
+  </defs>
+  <!-- First Arrow with Border -->
+  <path d="M16 2L10 8l6 6V2z" fill="url(#arrowGradient)" stroke="#228B22" stroke-width="2" />
+  <!-- Second Arrow with Border -->
+  <path d="M10 2L4 8l6 6V2z" fill="url(#arrowGradient)" stroke="#228B22" stroke-width="2" />
+</svg>
