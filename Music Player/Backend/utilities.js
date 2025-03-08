@@ -1,6 +1,6 @@
 
 
-const API_KEY = 'ADD_YOUR_JIO_SAVAN_API_KEY_HERE';
+const API_KEY = process.env.API_KEY;
 
 async function sendSongRequest(songName) {
     const url = `https://full-jio-saavn-data-api-with-streams-download-etc1.p.rapidapi.com/search/songs?query=${songName}`;
