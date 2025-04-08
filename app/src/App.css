@@ -1,0 +1,76 @@
+.App {
+  width: 100svw;
+  height: 100svh;
+  overflow-x: hidden;
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.filter {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: radial-gradient(rgba(30, 29, 29, 0.674), rgba(30, 29, 29, 0.756), rgba(30, 29, 29, 0.892));
+  opacity: 0.56;
+  pointer-events: none;
+}
+
+.search-bar {
+  width: 55%;
+  height: 45px;
+  position: relative;
+
+}
+
+.search-bar input {
+  color: rgb(40, 3, 249);
+  background-color: rgba(255, 255, 255, 0.623);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 10px;
+  border: none;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  word-spacing: 3px;
+}
+
+.search-bar img {
+  position: absolute;
+  right: -12px;
+  top: 0px;
+  height: 60%;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: rgba(13, 239, 20, 0.934);
+}
+.search-bar img:hover{
+  background-color: rgba(13, 239, 20, 0.567);
+}
+
+.songs-container {
+  width: 85%;
+  height: 80%;
+  border: 2px solid rgba(41, 37, 37, 0.442);
+  border-radius: 10px;
+  background-color: rgba(41, 37, 37, 0.434);
+  box-shadow: 0px 0px 10px 10px rgba(41, 37, 37, 0.579);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-color: rgba(32, 28, 28, 0.879) transparent;
+  position: relative;
+}
